@@ -1,33 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Codificable</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <h1><a href="/index.html">Codificable</a></h1>
-
+    <header class="header">
+      <h1 class="header__logo"><a href="/index.html">Codificable</a></h1>
+      <nav class="navigation">
         <ul>
           <li><a href="/blog/index.html">Blog</a></li>
           <li><a href="#">Sobre nosotros</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
-      <div>
-        <h2>Queremos verte crecer</h2>
-        <p>
-          Únete a la comunidad de desarrolladores de mayor crecimiento de la
-          región y lleva tu carrera a un siguiente nivel
-        </p>
-        <a href="/blog/index.html">Visita nuestro blog</a>
-      </div>
+      <section class="section hero">
+        <div class="container">
+          <div class="hero__content hero--center">
+            <h2 class="hero__title">Queremos verte crecer</h2>
+            <p class="hero__lead">
+              Únete a la comunidad de desarrolladores de mayor crecimiento de la
+              región y lleva tu carrera a un siguiente nivel
+            </p>
+            <a href="/blog/index.html">Visita nuestro blog</a>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
-      <ul>
+
+    <footer class="container footer">
+      <ul class="social-links">
         <li>
           <a href="#"
             ><img src="/assets/icons/facebook.svg" alt="Facebook icon"
@@ -49,7 +55,7 @@
           /></a>
         </li>
       </ul>
-      <small>&copy; Codificable - Todos los derechos reservados</small>
+      <small>&copy; 2023 Codificable - Todos los derechos reservados</small>
     </footer>
   </body>
 </html>
